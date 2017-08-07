@@ -15,6 +15,5 @@ def get_roots(a, b, c):
 
 
 if __name__ == '__main__':
-    starshiy_koef, sredniy_koef, svobodniy_ch =
-    map(int, input('Введите через пробел 3 коэффициента: ').split())
-    print(get_roots(starshiy_koef, sredniy_koef, svobodniy_ch))
+    starshiy, sredniy, svobodniy = map(int, input('Введите a, b, c: ').split())
+    print('Корни уравнения: ' + str(get_roots(starshiy, sredniy, svobodniy)))
